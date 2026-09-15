@@ -1,0 +1,4 @@
+Model,Best Parameters,Best CV Accuracy
+k-NN,{'n_neighbors': 9},0.9572778345250255
+SVM,"{'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}",1.0
+MLP,"{'activation': 'logistic', 'alpha': 0.1, 'hidden_layer_sizes': (3,)}",1.0

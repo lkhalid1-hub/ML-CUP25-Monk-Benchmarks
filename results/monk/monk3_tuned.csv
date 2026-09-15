@@ -1,0 +1,4 @@
+Model,Best Parameters,Best CV Accuracy
+k-NN,{'n_neighbors': 7},0.9594484167517876
+SVM,"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}",0.9864402451481104
+MLP,"{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (2,)}",0.9864402451481104

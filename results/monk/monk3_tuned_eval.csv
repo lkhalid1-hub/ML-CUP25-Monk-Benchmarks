@@ -1,0 +1,4 @@
+Model,Train Accuracy,Test Accuracy,Best CV Accuracy,Best Parameters,MLP Mean Test Accuracy,MLP Std Test Accuracy
+k-NN,0.9706546275395034,0.9819819819819819,0.9594484167517876,{'n_neighbors': 7},,
+SVM,0.9864559819413092,1.0,0.9864402451481104,"{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}",,
+MLP,0.9864559819413092,1.0,0.9864402451481104,"{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (2,)}",0.9846846846846848,0.012772474665547564
