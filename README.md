@@ -20,7 +20,6 @@ The notebooks use cross-validation and hyperparameter search, generate analysis 
 ├── results/
 │   ├── cup/                       # ML-CUP25 figures, abstract, and prediction CSV
 │   └── monk/                      # MONK result tables and figures
-├── KathiriyaKhalid.pdf            # Project report
 ├── requirements.txt
 └── .gitignore
 ```
