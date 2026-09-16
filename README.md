@@ -92,21 +92,3 @@ The provided original outputs are kept in the repository:
 - `results/cup/` and `results/monk/` — plots, learning curves, confusion matrices, hyperparameter analyses, and evaluation tables.
 
 The original reported ML-CUP25 results select the MLP regressor, with validation MEE 19.51 and internal test MEE 20.80.
-
-## Push to GitHub
-
-Create an empty repository on GitHub, then run the following commands from this project folder:
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit: ML-CUP25 and MONK experiments"
-git branch -M main
-git remote add origin <YOUR-REPOSITORY-URL>
-git push -u origin main
-```
-
-## Notes
-
-- Both notebooks depend on being launched from `notebooks/`; their paths are relative to that working directory.
-- `README_original.md` preserves the README as supplied in the archive. This `README.md` is the GitHub-ready version with complete setup and execution instructions.
